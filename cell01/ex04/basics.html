@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Básico</title>
+	<style>
+	h1
+	{
+		text-align: center;
+		color: white;
+	}
+	body{
+		background-color: pink;
+	}
+	.shop-meme
+	{
+		width:40vw;
+		height:50vh;
+	}
+	.wrapper{
+		display: grid;
+		width: 100%;
+		grid-template-columns: auto auto;
+		grid-auto-rows: auto;
+		justify-content: center;
+	}
+
+	.item-3, .item-4{
+		justify-self: center;
+	}
+
+	hr{
+		width: 100%;
+		border-color: black;
+	}
+
+	footer{
+		bottom: 0;
+		right: 0;
+		position:fixed;
+		width:100%;
+	}
+
+	.author{
+		font-family: monospace;
+		font-style: italic;
+		text-align: right;
+	}
+
+	</style>
+</head>
+<body>
+<h1>&#9992; Un titulo asi de grande &#9992;</h1>
+<div class="wrapper">
+		<div class="item-1"><img class="shop-meme" src="https://laverdadnoticias.com/__export/1598816774301/sites/laverdad/img/2020/08/30/memes_jeff_bezos_amazon_viral_1.jpg_1042244800.jpg" alt="Amazon"></div>
+		<div class="item-2"><img class="shop-meme" src="https://areajugones.sport.es/wp-content/uploads/2021/05/ibai-llanos.jpg" alt="Ebay"></div>
+		<div class="item-3"><a href="https://www.amazon.es/">Amazon</a></div>
+		<div class="item-4"><a href="https://www.ebay.es/">Ebay</a></div>
+</div>
+
+<footer>
+	<hr>
+	<p class="author">&copy; prodrigo 2021</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,32 @@
+html, body{
+	height: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+table{
+
+	width:100%;
+	position:relative;
+	min-height:100%;
+	border: 1.2px solid black;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+tr{
+	padding:0px;
+}
+td{
+	width: 50%;
+	padding-top:50vh;
+	padding-bottom: 50vh;
+}
+td:first-child{
+	border-right: 1.2px solid grey;
+}
+
+#cyan{
+	background-color: cyan
+}
+#red{
+	background-color: rgb(219, 80, 80);
+}
